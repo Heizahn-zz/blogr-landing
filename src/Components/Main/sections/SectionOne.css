@@ -1,0 +1,49 @@
+.sectionOne{
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionOne .img{
+  width: 100%;
+}
+.sectionOne .title{
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: hsl(256, 23%, 32%);
+}
+
+.sectionOne .parrafo{
+  font-size: 1.2rem;
+  text-align: center;
+  color: hsl(207, 13%, 34%);
+}
+
+@media screen and (min-width:1024px) {
+  .sectionOne{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .sectionOne .img{
+    order: 1;
+    width: 50%;
+  }
+
+  .sectionOne .articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .sectionOne .title{
+    padding: 1rem .2rem;
+    text-align: start;
+  }
+
+  .sectionOne .parrafo{
+    padding: 0 .2rem;
+    text-align: start;
+  }
+}

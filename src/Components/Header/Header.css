@@ -1,0 +1,36 @@
+.header{
+  border-radius: 0 0 0 5rem;
+  background: linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+}
+
+.imgFondo{
+  border-radius: 0 0 0 5rem;
+  background-image: url(../../img/bg-pattern-intro.svg);
+  background-size: 300%;
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+  min-height: 120px;
+}
+@media screen and (min-width: 768px) {
+  .imgFondo{
+    background-size: 150%;
+    background-position: 80% 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header{
+    background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  }
+  .imgFondo{
+    background-size: 150%;
+    background-position: 20% 50%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .imgFondo{
+    background-size: 175%;
+    background-position: 20% 50%;
+  }
+}

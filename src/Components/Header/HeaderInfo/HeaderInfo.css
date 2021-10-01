@@ -1,0 +1,109 @@
+.container {
+  margin-top: 7rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 25vh;
+}
+
+.containerInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  text-align: center;
+  color: azure;
+}
+
+.containerInfo h1 {
+  margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem;
+  font-size: 36px;
+}
+
+.containerInfo p {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+.button {
+  width: 80%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.startFree {
+  display: block;
+  padding: 0.7rem 1.2rem;
+  color: hsl(353, 100%, 62%);
+  border-radius: 2rem;
+  background-color: azure;
+  border: 2px solid white;
+}
+
+.startFree:hover {
+  background-color: hsl(13, 100%, 72%);
+  color: white;
+  border: 2px solid hsl(13, 100%, 72%);
+  transform: 250ms;
+}
+
+.moreInfo {
+  display: block;
+  padding: 0.7rem 1.2rem;
+  color: hsl(353, 100%, 62%);
+  border-radius: 2rem;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.moreInfo:hover {
+  background-color: azure;
+  border: 2px solid white;
+  color: hsl(353, 100%, 62%);
+}
+
+@media screen and (min-width: 1024px) {
+  .container{
+    margin: 1rem;
+  }
+  .containerInfo h1 {
+    margin: 0 .2rem 0 .2rem;
+    padding: 0.5rem;
+    font-size: 3.5rem;
+  }
+
+  .containerInfo p {
+    margin: 0.2rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .button {
+    width: 40%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .startFree{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .moreInfo{
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+  }
+}
